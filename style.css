@@ -3,18 +3,20 @@
 }
 
 .trans{
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     background-color: blue;
     color: white;
+    border: 2px solid black;
+    border-radius: 20px;
     text-align: center;
     font-size: 50px;
     transition: all 3s;
 }
 
 .trans:hover{
-    width: 400px;
-    height: 200px;
+    width: 800px;
+    height: 400px;
     background-color: red;
     color: red;
     transform: rotate(1080deg);
@@ -25,6 +27,8 @@
     height: 400px;
     color: white;
     font-size: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
     text-align: center;
     animation-name: img;
     animation-duration: 10s;
@@ -32,8 +36,8 @@
 }
 
 @keyframes img {
-    0%   {background-color: red; color: white;}
-    25%  {background-color: yellow; color: black;}
-    50%  {background-color: blue; color: white;}
-    100% {background-color: green; color: white;}
+    0%   {background-color: rgb(160, 0, 0); color: white;}
+    25%  {background-color: rgb(255, 255, 112); color: black;}
+    50%  {background-color: rgb(0, 0, 129); color: white;}
+    100% {background-color: rgb(0, 99, 0); color: white;}
   }
