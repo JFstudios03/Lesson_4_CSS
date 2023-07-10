@@ -1,0 +1,39 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.trans{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    transition: all 3s;
+}
+
+.trans:hover{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    color: red;
+    transform: rotate(1080deg);
+}
+
+.anim{
+    width: 400px;
+    height: 400px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    animation-name: img;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img {
+    0%   {background-color: red; color: white;}
+    25%  {background-color: yellow; color: black;}
+    50%  {background-color: blue; color: white;}
+    100% {background-color: green; color: white;}
+  }
